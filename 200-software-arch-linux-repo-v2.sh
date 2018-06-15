@@ -19,11 +19,11 @@ echo "Installing category Accessories"
 
 sudo pacman -S --noconfirm --needed catfish
 sudo pacman -S --noconfirm --needed cmatrix
-sudo pacman -S --noconfirm --needed galculator
-sudo pacman -S --noconfirm --needed gnome-screenshot
+#sudo pacman -S --noconfirm --needed galculator
+#sudo pacman -S --noconfirm --needed gnome-screenshot
 sudo pacman -S --noconfirm --needed plank
 sudo pacman -S --noconfirm --needed redshift
-sudo pacman -S --noconfirm --needed xfburn
+#sudo pacman -S --noconfirm --needed xfburn
 sudo pacman -S --noconfirm --needed variety
 #sudo pacman -S --noconfirm --needed
 
@@ -45,19 +45,19 @@ echo "Installing category Games"
 
 echo "Installing category Graphics"
 
-sudo pacman -S --noconfirm --needed darktable
+#sudo pacman -S --noconfirm --needed darktable
 sudo pacman -S --noconfirm --needed gimp
-sudo pacman -S --noconfirm --needed gnome-font-viewer
-sudo pacman -S --noconfirm --needed gpick
+#sudo pacman -S --noconfirm --needed gnome-font-viewer
+#sudo pacman -S --noconfirm --needed gpick
 sudo pacman -S --noconfirm --needed inkscape
 #sudo pacman -S --noconfirm --needed pinta
-sudo pacman -S --noconfirm --needed ristretto
+#sudo pacman -S --noconfirm --needed ristretto
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Internet"
 
 sudo pacman -S --noconfirm --needed chromium
-sudo pacman -S --noconfirm --needed filezilla
+#sudo pacman -S --noconfirm --needed filezilla
 sudo pacman -S --noconfirm --needed firefox
 #sudo pacman -S --noconfirm --needed hexchat
 sudo pacman -S --noconfirm --needed transmission-cli
@@ -80,7 +80,7 @@ sudo pacman -S --noconfirm --needed vlc
 echo "Installing category Office"
 
 sudo pacman -S --noconfirm --needed evince
-sudo pacman -S --noconfirm --needed evolution
+#sudo pacman -S --noconfirm --needed evolution
 #sudo pacman -S --noconfirm --needed geary
 #sudo pacman -S --noconfirm --needed libreoffice-fresh
 #sudo pacman -S --noconfirm --needed
@@ -101,7 +101,7 @@ sudo pacman -S --noconfirm --needed ffmpegthumbnailer
 sudo pacman -S --noconfirm --needed git
 sudo pacman -S --noconfirm --needed glances
 sudo pacman -S --noconfirm --needed gnome-disk-utility
-sudo pacman -S --noconfirm --needed gnome-keyring
+#sudo pacman -S --noconfirm --needed gnome-keyring
 #sudo pacman -S --noconfirm --needed gnome-system-monitor
 #sudo pacman -S --noconfirm --needed gnome-terminal
 #sudo pacman -S --noconfirm --needed gnome-tweak-tool
@@ -119,7 +119,7 @@ sudo pacman -S --noconfirm --needed net-tools
 #sudo pacman -S --noconfirm --needed notify-osd
 sudo pacman -S --noconfirm --needed noto-fonts
 sudo pacman -S --noconfirm --needed numlockx
-sudo pacman -S --noconfirm --needed polkit-gnome
+#sudo pacman -S --noconfirm --needed polkit-gnome
 sudo pacman -S --noconfirm --needed sane
 sudo pacman -S --noconfirm --needed screenfetch
 sudo pacman -S --noconfirm --needed scrot
@@ -127,9 +127,6 @@ sudo pacman -S --noconfirm --needed simple-scan
 sudo pacman -S --noconfirm --needed sysstat
 #sudo pacman -S --noconfirm --needed terminator
 sudo pacman -S --noconfirm --needed termite
-sudo pacman -S --noconfirm --needed thunar
-sudo pacman -S --noconfirm --needed thunar-archive-plugin
-sudo pacman -S --noconfirm --needed thunar-volman
 sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family
 sudo pacman -S --noconfirm --needed ttf-droid
 sudo pacman -S --noconfirm --needed tumbler
@@ -149,7 +146,6 @@ sudo pacman -S --noconfirm --needed xdg-user-dirs
 sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils  uudeview  arj cabextract file-roller
 
 ###############################################################################################
-
 
 echo "################################################################"
 echo "#### Software from standard Arch Linux Repo installed  #########"

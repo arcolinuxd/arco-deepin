@@ -55,7 +55,7 @@ sudo pacman -S arcolinux-termite-themes-git --noconfirm --needed
 #sudo pacman -S arcolinux-tint2-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-variety-git --noconfirm --needed
 sudo pacman -S arcolinux-wallpapers-git --noconfirm --needed
-#sudo pacman -S arcolinux-xfce-thunar-git --noconfirm --needed
+sudo pacman -S arcolinux-xfce-thunar-git --noconfirm --needed
 
 
 echo "################################################################"
@@ -68,7 +68,6 @@ echo "Copying all files and folders from /etc/skel to ~"
 echo "################################################################"
 echo
 cp -rT /etc/skel ~
-
 
 echo "################################################################"
 echo "removing all folders and files unnecessary for this dekstop from .config"
