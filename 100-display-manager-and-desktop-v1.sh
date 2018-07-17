@@ -24,6 +24,10 @@ sudo pacman -S deepin deepin-extra --noconfirm --needed
 sudo systemctl enable lightdm.service -f
 sudo systemctl set-default graphical.target
 
+echo "Changing /etc/lightdm/lightdm.conf to deepin"
+
+sudo sed -i 's/'#user-session='/'user-session=deepin'/g' /etc/lightdm/lightdm.conf
+sudo sed -i 's/'#greeter-session='/'greeter-session=lightdm-gtk-greeter'/g' /etc/lightdm/lightdm.conf
 
 #Remove anything you do not like from the installed applications
 
