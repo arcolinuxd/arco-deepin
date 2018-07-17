@@ -19,6 +19,9 @@ echo "and run the alias - mirror in the terminal"
 echo "#################################################"
 
 sudo pacman -Syyu
+#bug with deepin-anything - see github
+sudo pacman -S linux-headers
+
 sudo pacman -S lightdm arcolinux-lightdm-gtk-greeter arcolinux-lightdm-gtk-greeter-settings --noconfirm --needed
 sudo pacman -S deepin deepin-extra --noconfirm --needed
 sudo systemctl enable lightdm.service -f
