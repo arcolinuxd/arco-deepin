@@ -20,7 +20,7 @@ echo "#################################################"
 
 sudo pacman -Syyu
 #bug with deepin-anything - see github
-sudo pacman -S linux-headers
+sudo pacman -S linux-headers --noconfirm --needed
 
 sudo pacman -S lightdm arcolinux-lightdm-gtk-greeter arcolinux-lightdm-gtk-greeter-settings --noconfirm --needed
 sudo pacman -S deepin deepin-extra --noconfirm --needed
