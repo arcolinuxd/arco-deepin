@@ -56,6 +56,9 @@ func_category Arcolinux
 
 list=(
 arcolinux-bin-git
+arcolinux-config-deepin-git
+arcolinux-deepin-dconf-git
+arcolinux-deepin-git
 arcolinux-hblock-git
 arcolinux-local-xfce4-git
 arcolinux-kvantum-git

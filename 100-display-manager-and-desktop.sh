@@ -57,9 +57,6 @@ xfce4-terminal
 arcolinux-xfce-git
 deepin
 deepin-extra
-arcolinux-deepin-git
-arcolinux-config-deepin-git
-arcolinux-deepin-dconf-git
 )
 
 count=0
