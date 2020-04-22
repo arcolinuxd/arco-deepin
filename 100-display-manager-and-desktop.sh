@@ -84,6 +84,8 @@ echo "Removing packages we do not want"
 echo "################################################################"
 echo;tput sgr0
 sudo pacman -R network-manager-applet --noconfirm
+sudo pacman -R arcolinux-betterlockscreen-git --noconfirm
+sudo pacman -R arcolinux-logout-git --noconfirm
 
 tput setaf 7;echo "################################################################"
 echo "You now have a very minimal functional desktop"
