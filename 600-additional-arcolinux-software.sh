@@ -52,17 +52,27 @@ func_category() {
 
 ###############################################################################
 
-func_category Arcolinux
+func_category Arcolinux-Desktop
+
+list=(
+arcolinux-deepin-dconf-git
+arcolinux-deepin-git
+arcolinux-config-deepin-git
+)
+
+count=0
+for name in "${list[@]}" ; do
+	count=$[count+1]
+	tput setaf 3;echo "Installing package nr.  "$count " " $name;tput sgr0;
+	func_install $name
+done
+###############################################################################
+
+func_category Arcolinux-General
 
 list=(
 arcolinux-bin-git
-arcolinux-config-deepin-git
-arcolinux-deepin-dconf-git
-arcolinux-deepin-git
 arcolinux-hblock-git
-arcolinux-local-xfce4-git
-arcolinux-kvantum-git
-arcolinux-local-applications-git
 arcolinux-root-git
 arcolinux-termite-themes-git
 arcolinux-variety-git
@@ -74,6 +84,8 @@ for name in "${list[@]}" ; do
 	tput setaf 3;echo "Installing package nr.  "$count " " $name;tput sgr0;
 	func_install $name
 done
+
+###############################################################################
 
 tput setaf 6;echo "################################################################"
 echo "Copying all files and folders from /etc/skel to ~"
