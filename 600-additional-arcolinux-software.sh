@@ -58,6 +58,12 @@ list=(
 arcolinux-deepin-dconf-git
 arcolinux-deepin-git
 arcolinux-config-deepin-git
+thunar
+thunar-archive-plugin
+thunar-volman
+xfce4-terminal
+arcolinux-xfce-git
+arcolinux-local-xfce4-git
 )
 
 count=0
