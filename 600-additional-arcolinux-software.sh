@@ -57,7 +57,7 @@ func_category Arcolinux-Desktop
 list=(
 arcolinux-deepin-dconf-git
 arcolinux-deepin-git
-arcolinux-config-deepin-git
+arcolinux-config-all-desktops-git
 thunar
 thunar-archive-plugin
 thunar-volman
